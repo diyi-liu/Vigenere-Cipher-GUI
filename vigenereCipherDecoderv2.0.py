@@ -1,4 +1,3 @@
-# Vigenère Cipher Decoder v1.0
 from graphics import *
 def decode(ciphertext, key):
     length = len(ciphertext)
@@ -16,7 +15,7 @@ def decode(ciphertext, key):
     return plaintext
 
 def decoder():
-    win = GraphWin("Vigenère Cipher Decoder", 400, 300)
+    win = GraphWin("Vigenere Cipher Decoder", 400, 300)
     win.setCoords(0, 0, 4.0, 4.0)
     win.setBackground("black")
     cipherIcon = Text(Point(1, 3), "Input Ciphertext here:")
